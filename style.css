@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  background: url("https://cdn.pixabay.com/photo/2017/10/30/13/35/autumn-2902532_960_720.jpg");
+  background-size: cover;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.card {
+  width:10vw;
+  height: 30vh;
+  border-radius: 5%;
+  border: 1px solid black;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.back {
+  background: url("https://assets-lighthouse.alphacamp.co/uploads/image/file/9222/ExportedContentImage_00.png");
+  background-size: cover;
+}
